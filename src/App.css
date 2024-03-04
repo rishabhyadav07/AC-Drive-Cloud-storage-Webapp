@@ -1,0 +1,49 @@
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 100px;
+}
+
+@media only screen and (min-width: 768px) {
+  .box{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1%;
+    justify-content: center;
+  } 
+}
+
+@media only screen and (min-width: 1000px) {
+  .box{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1%;
+    width: 600px;
+    justify-content: center;
+  } 
+}
+
+
+.idxbtn{
+  margin-top: -15px;
+}
+.navlogo{
+  margin-right: 12px;
+
+}
+.bdge{
+  font-size: 40px;
+  font-weight: 100;
+  
+}
+.navbaremail{
+  padding-left: 100px;
+  color: white;
+  font-weight: 300;
+  font-size: 20px;
+}
+.n1-1{
+  margin-right: 14px;
+}
